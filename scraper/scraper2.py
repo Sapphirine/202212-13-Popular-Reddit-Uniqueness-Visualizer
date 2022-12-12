@@ -4,8 +4,8 @@ import calendar
 from datetime import date, timedelta
 import os
 
-start_date = date(2019, 1, 1)
-end_date = date(2020, 1, 1)
+start_date = date(2010, 1, 1)
+end_date = date(2011, 1, 1)
 delta = timedelta(days=1)
 while start_date < end_date:
     year = start_date.year
@@ -46,4 +46,9 @@ while start_date < end_date:
     if not os.path.exists(f'{year}'):
         os.makedirs(f'{year}')
 
-    posts_df.to_csv(f'{year}/{month}-{day}.csv', index=False)
+    file_name = f'{year}/{month}.csv'
+    if os.path.exists(file_name):
+        old_df = pd.read_csv(file_name, header=0)
+        pd.concat([old_df, posts_df]).to_csv(file_name, index=False)
+    else:
+        posts_df.to_csv(file_name, index=False)
