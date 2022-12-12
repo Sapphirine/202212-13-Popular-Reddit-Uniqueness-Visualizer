@@ -36,11 +36,12 @@ function redraw(classes){
       .attr("r", 1e-6)
       .remove();
 
+  text.selectAll("tspan").attr("opacity", 1e-6).exit().remove();
   text.exit()
     .transition(t)
       .attr("opacity", 1e-6)
       .remove();
-
+      text.selectAll("tspan").attr("opacity", 1e-6).exit().remove();
   //UPDATE
   circle
     .transition(t)
@@ -49,10 +50,24 @@ function redraw(classes){
       .attr("cx", function(d){ return d.x; })
       .attr("cy", function(d){ return d.y; })
 
-  text
+  text.transition(t)
+  .attr("x", function(d){ return d.x; })
+  .attr("y", function(d){ return d.y; });
+
+  text.append("tspan")
     .transition(t)
-      .attr("x", function(d){ return d.x; })
-      .attr("y", function(d){ return d.y; });
+    .attr("x", function(d){ return d.x; })
+    .attr("y", function(d){ return d.y; })
+    .attr("dy", "1.2em")
+    .text(function(d) {return Math.ceil(d.value * 10000) /10000; })
+  /*text.append("text")
+    .transition(t)
+    .attr("x", function(d){ return d.x; })
+    .attr("y", function(d){ return d.y; })
+    .attr("dy", "1.2em")
+    .text(function(d) {return Math.ceil(d.value * 10000) /10000; })*/
+
+
 
   //ENTER
   circle.enter().append("circle")
@@ -68,9 +83,19 @@ function redraw(classes){
       .attr("opacity", 1e-6)
       .attr("x", function(d){ return d.x; })
       .attr("y", function(d){ return d.y; })
-      .text(function(d){ return d.data.term /*+ ": " + Math.ceil(d.data.probability * 10000) /10000*/; })
+      .attr("dy", "0em")
+      .text(function(d) { return d.data.term})
     .transition(t)
       .attr("opacity", 1);
+
+  text.enter().append("text")
+      .attr("opacity", 1e-6)
+      .attr("x", function(d){ return d.x; })
+      .attr("y", function(d){ return d.y; })
+      .attr("dy", "1.2em")
+      .text(function(d) {return Math.ceil(d.value * 10000) /10000; })
+      .transition(t)
+        .attr("opacity", 1);
 }
 
 var generateChart = data => {
