@@ -4,8 +4,8 @@ import calendar
 from datetime import date, timedelta
 import os
 
-start_date = date(2010, 1, 1)
-end_date = date(2011, 1, 1)
+start_date = date(2011, 1, 1)
+end_date = date(2020, 1, 1)
 delta = timedelta(days=1)
 while start_date < end_date:
     year = start_date.year
