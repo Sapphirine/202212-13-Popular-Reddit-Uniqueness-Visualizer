@@ -9,7 +9,7 @@
 <script>
 
 // set the dimensions and margins of the graph
-var margin = {top: 40, right: 30, bottom: 40, left: 60},
+var margin = {top: 40, right: 30, bottom: 40, left: 100},
     width = 920 - margin.left - margin.right,
     height = 800 - margin.top - margin.bottom;
 
@@ -23,7 +23,7 @@ var svg = d3.select("#dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("https://raw.githubusercontent.com/danmao124/pruv/main/processed_data/lines/data.json",
+d3.csv("https://raw.githubusercontent.com/danmao124/pruv/main/processed_data/lines/data.csv",
 
   // When reading the csv, I must format variables:
   function(d){
@@ -60,7 +60,7 @@ d3.csv("https://raw.githubusercontent.com/danmao124/pruv/main/processed_data/lin
         .attr("x",0 - (height / 2))
         .attr("dy", "1em")
         .style("text-anchor", "middle")
-        .text("Precipitation");
+        .text("Score");
 
     svg.append("text")
             .attr("x", (width / 2))
@@ -68,7 +68,7 @@ d3.csv("https://raw.githubusercontent.com/danmao124/pruv/main/processed_data/lin
             .attr("text-anchor", "middle")
             .style("font-size", "16px")
             .style("text-decoration", "underline")
-            .text("Precipitation in Seattle Between 2012 and 2015");
+            .text("Total Score/Month of Popular Reddit Posts");
 
     // Add the line
     svg.append("path")
