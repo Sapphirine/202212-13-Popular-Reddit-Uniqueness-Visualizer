@@ -18,7 +18,6 @@ var month = "January";
 var year = "2010";
 var year2 = "2010";
 var allGroup = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
 var selector = d3.select("#selectButton")
       .selectAll('myOptions')
       .data(allGroup)
@@ -107,7 +106,6 @@ function redraw(classes){
   .attr("y", function(d){ return d.y; });
 
   text.append("tspan")
-    .transition(t)
     .attr("x", function(d){ return d.x; })
     .attr("y", function(d){ return d.y; })
     .attr("dy", "1.2em")
