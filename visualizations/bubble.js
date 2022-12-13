@@ -67,7 +67,7 @@ function redraw(classes){
 
   // transition
   var t = d3.transition()
-      .duration(750);
+      .duration(2000);
   //console.log(classes)
   // hierarchy
   var h = d3.hierarchy({children: classes})
@@ -104,12 +104,12 @@ function redraw(classes){
   text.transition(t)
   .attr("x", function(d){ return d.x; })
   .attr("y", function(d){ return d.y; });
-
+/*
   text.append("tspan")
     .attr("x", function(d){ return d.x; })
     .attr("y", function(d){ return d.y; })
     .attr("dy", "1.2em")
-    .text(function(d) {return Math.ceil(d.value * 10000) /10000; })
+    .text(function(d) {return Math.ceil(d.value * 10000) /10000; })*/
 
   //ENTER
   circle.enter().append("circle")
@@ -129,7 +129,7 @@ function redraw(classes){
       .text(function(d) { return d.data.term})
     .transition(t)
       .attr("opacity", 1);
-
+/*
   text.enter().append("text")
       .attr("opacity", 1e-6)
       .attr("x", function(d){ return d.x; })
@@ -137,7 +137,7 @@ function redraw(classes){
       .attr("dy", "1.2em")
       .text(function(d) {return Math.ceil(d.value * 10000) /10000; })
       .transition(t)
-        .attr("opacity", 1);
+        .attr("opacity", 1);*/
 }
 
 var generateChart = data => {
