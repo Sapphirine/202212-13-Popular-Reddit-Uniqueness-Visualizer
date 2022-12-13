@@ -9,7 +9,7 @@
 <script>
 
 // set the dimensions and margins of the graph
-var margin = {top: 40, right: 30, bottom: 40, left: 100},
+var margin = {top: 40, right: 30, bottom: 40, left: 60},
     width = 920 - margin.left - margin.right,
     height = 800 - margin.top - margin.bottom;
 
@@ -27,7 +27,7 @@ d3.csv("https://raw.githubusercontent.com/danmao124/pruv/main/processed_data/lin
 
   // When reading the csv, I must format variables:
   function(d){
-    return { date : d3.timeParse("%Y-%m")(d.date), value : d.score }
+    return { date : d3.timeParse("%Y-%m")(d.date), value : d.score/d.num_posts }
   },
 
 
@@ -68,7 +68,7 @@ d3.csv("https://raw.githubusercontent.com/danmao124/pruv/main/processed_data/lin
             .attr("text-anchor", "middle")
             .style("font-size", "16px")
             .style("text-decoration", "underline")
-            .text("Total Score/Month of Popular Reddit Posts");
+            .text("Average score/post for each Month of Popular Reddit Posts");
 
     // Add the line
     svg.append("path")
