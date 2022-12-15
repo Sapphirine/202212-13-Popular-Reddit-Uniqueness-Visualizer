@@ -129,6 +129,7 @@ function redraw(classes) {
     .attr("x", function (d) { return d.x; })
     .attr("y", function (d) { return d.y; })
     .attr("dy", "0em")
+    .style("font-size", "12px")
     .text(function (d) { return d.data.term })
     .transition(t)
     .attr("opacity", 1);
@@ -157,6 +158,23 @@ async function fetchFile(month, year) {
   data = await d3.json(filename).then(data => data);
   grouping = d3.group(data.data, d => d.topic)
   redraw(grouping);
+
+  if (stats_file == undefined) {
+    var filename = 'https://raw.githubusercontent.com/danmao124/pruv/main/processed_data/lines/data.json';
+    data = await d3.json(filename).then(data => data);
+    stats_file = data
+  }
+
+  for (let i = 0; i < stats_file.length; i++) {
+    var stat = stats_file[i];
+    var parts = stat.date.split('-');
+    var mydate = new Date(parts[0], parts[1] - 1, 1);
+    if (d3.timeFormat('%Y')(mydate) == year && d3.timeFormat('%B')(mydate) == month) {
+      d3.select('#stats').text("Total votes: " + stat.score);
+      d3.select('#stats2').text("Total comments: " + stat.comments);
+      break;
+    }
+  }
 
   console.log(grouping)
   fetching = false;

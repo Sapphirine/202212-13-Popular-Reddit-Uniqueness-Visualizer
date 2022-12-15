@@ -47,7 +47,8 @@ span {
     font-weight: bold;
 }
 
-#stats {
+#stats,
+#stats2 {
     margin-right: 10px;
     position: relative;
     float: right;
