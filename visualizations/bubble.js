@@ -69,7 +69,8 @@ fetchFile(month, year2);
 function redraw(classes) {
   // transition
   var t = d3.transition()
-    .duration(750);
+    .duration(2000);
+  //console.log(classes)
   // hierarchy
   var h = d3.hierarchy(classes)
     .sum(function (d) { return d.probability; })
