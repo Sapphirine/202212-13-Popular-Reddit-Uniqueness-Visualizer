@@ -1,0 +1,722 @@
+[
+    {
+        "date": "2010-01",
+        "score": 1151677,
+        "comments": 683937,
+        "num_posts": 7634
+    },
+    {
+        "date": "2010-02",
+        "score": 958966,
+        "comments": 583314,
+        "num_posts": 6916
+    },
+    {
+        "date": "2010-03",
+        "score": 1099036,
+        "comments": 696535,
+        "num_posts": 7672
+    },
+    {
+        "date": "2010-04",
+        "score": 1079373,
+        "comments": 646915,
+        "num_posts": 7439
+    },
+    {
+        "date": "2010-05",
+        "score": 1058948,
+        "comments": 693750,
+        "num_posts": 7634
+    },
+    {
+        "date": "2010-06",
+        "score": 1080410,
+        "comments": 705476,
+        "num_posts": 7420
+    },
+    {
+        "date": "2010-07",
+        "score": 1125671,
+        "comments": 762636,
+        "num_posts": 7679
+    },
+    {
+        "date": "2010-08",
+        "score": 1304571,
+        "comments": 790761,
+        "num_posts": 7673
+    },
+    {
+        "date": "2010-09",
+        "score": 1903656,
+        "comments": 840400,
+        "num_posts": 7433
+    },
+    {
+        "date": "2010-10",
+        "score": 1841051,
+        "comments": 869348,
+        "num_posts": 7676
+    },
+    {
+        "date": "2010-11",
+        "score": 1987808,
+        "comments": 971911,
+        "num_posts": 7438
+    },
+    {
+        "date": "2010-12",
+        "score": 2149360,
+        "comments": 946867,
+        "num_posts": 7693
+    },
+    {
+        "date": "2011-01",
+        "score": 2489953,
+        "comments": 1070538,
+        "num_posts": 7686
+    },
+    {
+        "date": "2011-02",
+        "score": 2356158,
+        "comments": 975195,
+        "num_posts": 6956
+    },
+    {
+        "date": "2011-03",
+        "score": 2639892,
+        "comments": 1211924,
+        "num_posts": 7688
+    },
+    {
+        "date": "2011-04",
+        "score": 2810802,
+        "comments": 1164148,
+        "num_posts": 7433
+    },
+    {
+        "date": "2011-05",
+        "score": 3266094,
+        "comments": 1361307,
+        "num_posts": 7661
+    },
+    {
+        "date": "2011-06",
+        "score": 3576579,
+        "comments": 1413029,
+        "num_posts": 7441
+    },
+    {
+        "date": "2011-07",
+        "score": 3701386,
+        "comments": 1401287,
+        "num_posts": 7681
+    },
+    {
+        "date": "2011-08",
+        "score": 4255707,
+        "comments": 1609058,
+        "num_posts": 7678
+    },
+    {
+        "date": "2011-09",
+        "score": 4417048,
+        "comments": 1606452,
+        "num_posts": 7427
+    },
+    {
+        "date": "2011-10",
+        "score": 4910605,
+        "comments": 1710180,
+        "num_posts": 7665
+    },
+    {
+        "date": "2011-11",
+        "score": 5503118,
+        "comments": 1733311,
+        "num_posts": 7420
+    },
+    {
+        "date": "2011-12",
+        "score": 6375004,
+        "comments": 1862238,
+        "num_posts": 7681
+    },
+    {
+        "date": "2012-01",
+        "score": 7132145,
+        "comments": 1952712,
+        "num_posts": 7678
+    },
+    {
+        "date": "2012-02",
+        "score": 7311500,
+        "comments": 2001606,
+        "num_posts": 7197
+    },
+    {
+        "date": "2012-03",
+        "score": 8146199,
+        "comments": 1989547,
+        "num_posts": 7679
+    },
+    {
+        "date": "2012-04",
+        "score": 8680139,
+        "comments": 2125107,
+        "num_posts": 7419
+    },
+    {
+        "date": "2012-05",
+        "score": 9289783,
+        "comments": 2302464,
+        "num_posts": 7672
+    },
+    {
+        "date": "2012-06",
+        "score": 9628509,
+        "comments": 2520869,
+        "num_posts": 7435
+    },
+    {
+        "date": "2012-07",
+        "score": 10425675,
+        "comments": 2735355,
+        "num_posts": 7661
+    },
+    {
+        "date": "2012-08",
+        "score": 11371102,
+        "comments": 2751669,
+        "num_posts": 7663
+    },
+    {
+        "date": "2012-09",
+        "score": 11808054,
+        "comments": 2595951,
+        "num_posts": 7430
+    },
+    {
+        "date": "2012-10",
+        "score": 13133243,
+        "comments": 2777981,
+        "num_posts": 7695
+    },
+    {
+        "date": "2012-11",
+        "score": 13696953,
+        "comments": 2700269,
+        "num_posts": 7444
+    },
+    {
+        "date": "2012-12",
+        "score": 14268929,
+        "comments": 2783817,
+        "num_posts": 7666
+    },
+    {
+        "date": "2013-01",
+        "score": 13736001,
+        "comments": 3231767,
+        "num_posts": 7689
+    },
+    {
+        "date": "2013-02",
+        "score": 12922800,
+        "comments": 2727536,
+        "num_posts": 6934
+    },
+    {
+        "date": "2013-03",
+        "score": 14623200,
+        "comments": 3067205,
+        "num_posts": 7683
+    },
+    {
+        "date": "2013-04",
+        "score": 14828100,
+        "comments": 3275246,
+        "num_posts": 7439
+    },
+    {
+        "date": "2013-05",
+        "score": 15217169,
+        "comments": 3315234,
+        "num_posts": 7692
+    },
+    {
+        "date": "2013-06",
+        "score": 15391300,
+        "comments": 3533522,
+        "num_posts": 7448
+    },
+    {
+        "date": "2013-07",
+        "score": 15563700,
+        "comments": 3605225,
+        "num_posts": 7675
+    },
+    {
+        "date": "2013-08",
+        "score": 16166400,
+        "comments": 3353030,
+        "num_posts": 7670
+    },
+    {
+        "date": "2013-09",
+        "score": 15557500,
+        "comments": 3189211,
+        "num_posts": 7425
+    },
+    {
+        "date": "2013-10",
+        "score": 16389600,
+        "comments": 3779203,
+        "num_posts": 7701
+    },
+    {
+        "date": "2013-11",
+        "score": 16212200,
+        "comments": 3347652,
+        "num_posts": 7455
+    },
+    {
+        "date": "2013-12",
+        "score": 17885100,
+        "comments": 3359242,
+        "num_posts": 7686
+    },
+    {
+        "date": "2014-01",
+        "score": 18208500,
+        "comments": 3827306,
+        "num_posts": 7674
+    },
+    {
+        "date": "2014-02",
+        "score": 16577700,
+        "comments": 3433093,
+        "num_posts": 6939
+    },
+    {
+        "date": "2014-03",
+        "score": 18652300,
+        "comments": 3801944,
+        "num_posts": 7692
+    },
+    {
+        "date": "2014-04",
+        "score": 18352300,
+        "comments": 3543952,
+        "num_posts": 7439
+    },
+    {
+        "date": "2014-05",
+        "score": 19267999,
+        "comments": 3786266,
+        "num_posts": 7688
+    },
+    {
+        "date": "2014-06",
+        "score": 19930300,
+        "comments": 3767149,
+        "num_posts": 7452
+    },
+    {
+        "date": "2014-07",
+        "score": 45432199,
+        "comments": 4223581,
+        "num_posts": 7419
+    },
+    {
+        "date": "2014-08",
+        "score": 48488600,
+        "comments": 4369765,
+        "num_posts": 7685
+    },
+    {
+        "date": "2014-09",
+        "score": 47172400,
+        "comments": 4020588,
+        "num_posts": 7432
+    },
+    {
+        "date": "2014-10",
+        "score": 47699399,
+        "comments": 4123113,
+        "num_posts": 7695
+    },
+    {
+        "date": "2014-11",
+        "score": 46505799,
+        "comments": 4065720,
+        "num_posts": 7444
+    },
+    {
+        "date": "2014-12",
+        "score": 46492967,
+        "comments": 3854179,
+        "num_posts": 7423
+    },
+    {
+        "date": "2015-01",
+        "score": 50610700,
+        "comments": 4846464,
+        "num_posts": 7667
+    },
+    {
+        "date": "2015-02",
+        "score": 45878499,
+        "comments": 3952340,
+        "num_posts": 6931
+    },
+    {
+        "date": "2015-03",
+        "score": 50310001,
+        "comments": 4488701,
+        "num_posts": 7684
+    },
+    {
+        "date": "2015-04",
+        "score": 48261600,
+        "comments": 4299295,
+        "num_posts": 7426
+    },
+    {
+        "date": "2015-05",
+        "score": 49065499,
+        "comments": 4680610,
+        "num_posts": 7660
+    },
+    {
+        "date": "2015-06",
+        "score": 49163499,
+        "comments": 4619441,
+        "num_posts": 7449
+    },
+    {
+        "date": "2015-07",
+        "score": 50250299,
+        "comments": 4801937,
+        "num_posts": 7668
+    },
+    {
+        "date": "2015-08",
+        "score": 51983298,
+        "comments": 4765232,
+        "num_posts": 7665
+    },
+    {
+        "date": "2015-09",
+        "score": 48296599,
+        "comments": 4696239,
+        "num_posts": 7412
+    },
+    {
+        "date": "2015-10",
+        "score": 51851199,
+        "comments": 4775075,
+        "num_posts": 7671
+    },
+    {
+        "date": "2015-11",
+        "score": 51553073,
+        "comments": 5187116,
+        "num_posts": 7436
+    },
+    {
+        "date": "2015-12",
+        "score": 50709200,
+        "comments": 5043265,
+        "num_posts": 7684
+    },
+    {
+        "date": "2016-01",
+        "score": 51974900,
+        "comments": 5163756,
+        "num_posts": 7685
+    },
+    {
+        "date": "2016-02",
+        "score": 49868899,
+        "comments": 5027637,
+        "num_posts": 7195
+    },
+    {
+        "date": "2016-03",
+        "score": 54862699,
+        "comments": 5341184,
+        "num_posts": 7446
+    },
+    {
+        "date": "2016-04",
+        "score": 61431097,
+        "comments": 5730811,
+        "num_posts": 7442
+    },
+    {
+        "date": "2016-05",
+        "score": 63627797,
+        "comments": 5740726,
+        "num_posts": 7699
+    },
+    {
+        "date": "2016-06",
+        "score": 63249399,
+        "comments": 5985938,
+        "num_posts": 7433
+    },
+    {
+        "date": "2016-07",
+        "score": 67496298,
+        "comments": 5876835,
+        "num_posts": 7680
+    },
+    {
+        "date": "2016-08",
+        "score": 69905296,
+        "comments": 5813283,
+        "num_posts": 7694
+    },
+    {
+        "date": "2016-09",
+        "score": 70620894,
+        "comments": 5350746,
+        "num_posts": 7436
+    },
+    {
+        "date": "2016-10",
+        "score": 76623897,
+        "comments": 5757322,
+        "num_posts": 7679
+    },
+    {
+        "date": "2016-11",
+        "score": 87470795,
+        "comments": 6076683,
+        "num_posts": 7392
+    },
+    {
+        "date": "2016-12",
+        "score": 93194695,
+        "comments": 6158448,
+        "num_posts": 7659
+    },
+    {
+        "date": "2017-01",
+        "score": 103478194,
+        "comments": 6838501,
+        "num_posts": 7654
+    },
+    {
+        "date": "2017-02",
+        "score": 95664013,
+        "comments": 6152696,
+        "num_posts": 6908
+    },
+    {
+        "date": "2017-03",
+        "score": 104642394,
+        "comments": 6907446,
+        "num_posts": 7670
+    },
+    {
+        "date": "2017-04",
+        "score": 108480598,
+        "comments": 6587875,
+        "num_posts": 7421
+    },
+    {
+        "date": "2017-05",
+        "score": 122524190,
+        "comments": 7083157,
+        "num_posts": 7648
+    },
+    {
+        "date": "2017-06",
+        "score": 123605895,
+        "comments": 7056574,
+        "num_posts": 7405
+    },
+    {
+        "date": "2017-07",
+        "score": 119678589,
+        "comments": 7044885,
+        "num_posts": 7659
+    },
+    {
+        "date": "2017-08",
+        "score": 128792193,
+        "comments": 7274780,
+        "num_posts": 7637
+    },
+    {
+        "date": "2017-09",
+        "score": 131506890,
+        "comments": 6374580,
+        "num_posts": 7424
+    },
+    {
+        "date": "2017-10",
+        "score": 142008789,
+        "comments": 6929152,
+        "num_posts": 7670
+    },
+    {
+        "date": "2017-11",
+        "score": 152030590,
+        "comments": 7165986,
+        "num_posts": 7407
+    },
+    {
+        "date": "2017-12",
+        "score": 154156485,
+        "comments": 6671879,
+        "num_posts": 7413
+    },
+    {
+        "date": "2018-01",
+        "score": 161868384,
+        "comments": 7397451,
+        "num_posts": 7668
+    },
+    {
+        "date": "2018-02",
+        "score": 156393488,
+        "comments": 6870677,
+        "num_posts": 6925
+    },
+    {
+        "date": "2018-03",
+        "score": 172725987,
+        "comments": 6403743,
+        "num_posts": 7647
+    },
+    {
+        "date": "2018-04",
+        "score": 167695491,
+        "comments": 6807731,
+        "num_posts": 7431
+    },
+    {
+        "date": "2018-05",
+        "score": 175857392,
+        "comments": 6848850,
+        "num_posts": 7673
+    },
+    {
+        "date": "2018-06",
+        "score": 172494491,
+        "comments": 6600533,
+        "num_posts": 7398
+    },
+    {
+        "date": "2018-07",
+        "score": 189057187,
+        "comments": 7414805,
+        "num_posts": 7675
+    },
+    {
+        "date": "2018-08",
+        "score": 188870086,
+        "comments": 6677875,
+        "num_posts": 7677
+    },
+    {
+        "date": "2018-09",
+        "score": 189196488,
+        "comments": 6414656,
+        "num_posts": 7423
+    },
+    {
+        "date": "2018-10",
+        "score": 206490600,
+        "comments": 7264139,
+        "num_posts": 7670
+    },
+    {
+        "date": "2018-11",
+        "score": 212922581,
+        "comments": 6932712,
+        "num_posts": 7411
+    },
+    {
+        "date": "2018-12",
+        "score": 236737079,
+        "comments": 7540615,
+        "num_posts": 7640
+    },
+    {
+        "date": "2019-01",
+        "score": 261256882,
+        "comments": 7970374,
+        "num_posts": 7652
+    },
+    {
+        "date": "2019-02",
+        "score": 244752379,
+        "comments": 7736364,
+        "num_posts": 6925
+    },
+    {
+        "date": "2019-03",
+        "score": 258141977,
+        "comments": 7842089,
+        "num_posts": 7641
+    },
+    {
+        "date": "2019-04",
+        "score": 228669584,
+        "comments": 7033767,
+        "num_posts": 7377
+    },
+    {
+        "date": "2019-05",
+        "score": 246560384,
+        "comments": 6877864,
+        "num_posts": 7637
+    },
+    {
+        "date": "2019-06",
+        "score": 252057776,
+        "comments": 6818630,
+        "num_posts": 7409
+    },
+    {
+        "date": "2019-07",
+        "score": 281626671,
+        "comments": 7301764,
+        "num_posts": 7616
+    },
+    {
+        "date": "2019-08",
+        "score": 294512872,
+        "comments": 8216383,
+        "num_posts": 7623
+    },
+    {
+        "date": "2019-09",
+        "score": 286096966,
+        "comments": 6784633,
+        "num_posts": 7389
+    },
+    {
+        "date": "2019-10",
+        "score": 294867261,
+        "comments": 7240906,
+        "num_posts": 7623
+    },
+    {
+        "date": "2019-11",
+        "score": 287679167,
+        "comments": 6999181,
+        "num_posts": 7396
+    },
+    {
+        "date": "2019-12",
+        "score": 309591072,
+        "comments": 7748834,
+        "num_posts": 7637
+    }
+]
