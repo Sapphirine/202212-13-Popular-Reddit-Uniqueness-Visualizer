@@ -1,12 +1,13 @@
 body {
-  margin: 0;
-  font-family: "Helvetica", sans-serif;
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
 }
+
 text {
-  text-anchor: middle;
-  font: 10px sans-serif;
-  pointer-events: none;
-  fill: #000000;
+    text-anchor: middle;
+    font: 10px sans-serif;
+    pointer-events: none;
+    fill: #000000;
 }
 
 circle {
@@ -39,4 +40,24 @@ span {
 
 .tooltip div {
     padding: 10px;
+}
+
+#value-time {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#stats {
+    margin-right: 10px;
+    position: relative;
+    float: right;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
 }
