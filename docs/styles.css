@@ -48,7 +48,8 @@ span {
 }
 
 #stats,
-#stats2 {
+#stats2,
+#stats3 {
     margin-right: 10px;
     position: relative;
     float: right;

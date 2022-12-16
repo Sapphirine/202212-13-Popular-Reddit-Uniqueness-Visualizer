@@ -143,7 +143,7 @@ function redraw(classes) {
   //   .attr("dy", "1.2em")
   //   .text(function (d) { return Math.ceil(d.value * 10000) / 10000; })
   //   .transition(t)
-  //   .attr("opacity", 1);  
+  //   .attr("opacity", 1);
 }
 
 function delay(time) {
@@ -176,6 +176,7 @@ async function fetchFile(month, year) {
     if (d3.timeFormat('%Y')(mydate) == year && d3.timeFormat('%B')(mydate) == month) {
       d3.select('#stats').text("Total votes: " + stat.score);
       d3.select('#stats2').text("Total comments: " + stat.comments);
+      d3.select('#stats3').text("Error");
       break;
     }
   }
@@ -183,4 +184,3 @@ async function fetchFile(month, year) {
   console.log(grouping)
   fetching = false;
 };
-
