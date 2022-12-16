@@ -15,23 +15,25 @@ var pack = d3.pack()
   .padding(1.5);
 var format = d3.format(",d");
 var month = "January";
-var year = "2010";
 var year2 = "2010";
 var allGroup = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-var selector = d3.select("#selectButton")
-  .selectAll('myOptions')
-  .data(allGroup)
-  .enter()
-  .append('option')
-  .text(function (d) { return d; }) // text showed in the menu
-  .attr("value", function (d) { return d; }) // corresponding value returned by the button
 
 var fetching = false;
+
+const queryString = window.location.search;
+if (queryString.length > 0) {
+  var parts = queryString.slice(1).split('-');
+  month = parts[0]
+  year2 = parts[1]
+}
 
 // Time
 var dataTime = d3.range(0, 11).map(function (d) {
   return new Date(2009 + d, 12, 10);
 });
+var bb = new Date(year2 + " " + month)
+console.log(bb.getFullYear())
+console.log(bb.getMonth())
 
 var sliderTime = d3
   .sliderBottom()
@@ -41,7 +43,7 @@ var sliderTime = d3
   .width(window.innerWidth - 75)
   .tickFormat(d3.timeFormat('%Y'))
   .tickValues(dataTime)
-  .default(d3.min(dataTime))
+  .default(bb)
   .on('onchange', val => {
     d3.select('p#value-time').text(d3.timeFormat('%B %Y')(val));
 
@@ -62,8 +64,8 @@ var gTime = d3
   .attr('transform', 'translate(30,30)');
 
 gTime.call(sliderTime);
-
 d3.select('p#value-time').text(d3.timeFormat('%B %Y')(sliderTime.value()));
+
 fetchFile(month, year2);
 
 function redraw(classes) {
@@ -152,6 +154,8 @@ var stats_file = undefined
 async function fetchFile(month, year) {
   if (fetching)
     return;
+
+  window.history.pushState('lol', '', '?' + month + '-' + year);
 
   fetching = true;
   var filename = 'https://raw.githubusercontent.com/danmao124/pruv/main/processed_data/' + year + '/' + month + '.json';
