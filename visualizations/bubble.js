@@ -36,7 +36,7 @@ var dataTime = d3.range(0, 11).map(function (d) {
 var sliderTime = d3
   .sliderBottom()
   .min(d3.min(dataTime))
-  .max(new Date(2019, 11, 1))
+  .max(new Date(2019, 12, 1))
   .step(30 * 60 * 60 * 24 * 1000)
   .width(window.innerWidth - 75)
   .tickFormat(d3.timeFormat('%Y'))
